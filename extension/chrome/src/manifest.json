@@ -38,12 +38,12 @@
         "http://*/*/repos/*/browse*",
         "https://*/*/repos/*/browse*",
 
-        "*://<your_stash_domain_here>/*"
+        "*://github.com/boldwade/Stash-Reviewers-Chrome-Extension/*"
       ]
     }
   ],
   "externally_connectable": {
-  	"matches": ["*://<your_stash_domain_here>/*"]
+  	"matches": ["*://github.com/boldwade/Stash-Reviewers-Chrome-Extension/*"]
   },
   "background": {
         "scripts": ["js/jquery-2.0.3.min.js", "js/background.js"],
@@ -53,6 +53,6 @@
 		"js/stash_page_injector.js",
 		"css/page_injection.css",
 		"js/default.json",
-    "img/stash128.png"
+    	"img/stash128.png"
 	]
 }
